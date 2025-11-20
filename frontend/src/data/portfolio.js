@@ -120,4 +120,11 @@ export const skills = {
         { name: "React", level: "Intermediate", icon: "FaReact" },
         { name: "HTML / CSS", level: "Intermediate", icon: "FaHtml5" },
     ],
+    "DevOps Basic": [
+        { name: "AWS", level: "Basic", icon: "SiAmazonaws" },
+        { name: "Docker", level: "Basic", icon: "FaDocker" },
+        { name: "Kubernetes", level: "Basic", icon: "SiKubernetes" },
+        { name: "CI/CD pipelines", level: "Basic", icon: "FaInfinity" },
+        { name: "GitHub", level: "Intermediate", icon: "FaGithub" },
+    ],
 };
