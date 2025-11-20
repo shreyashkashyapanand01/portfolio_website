@@ -38,7 +38,7 @@ const Hero = () => {
                         <span className="font-semibold text-secondary-600 dark:text-secondary-400">
                             <TypeAnimation
                                 sequence={[
-                                    'Java Spring Boot Backend Developer',
+                                    'Spring Boot Backend Developer',
                                     2000,
                                     'Machine Learning Explorer',
                                     2000,
