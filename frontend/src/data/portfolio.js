@@ -2,75 +2,80 @@ export const projects = [
     {
         id: 1,
         title: "CashFlow",
-        description: "A full-stack personal finance tracker to log income and expenses, categorize spending, and visualize financial data.",
-        techStack: ["Spring Boot", "React", "MySQL", "Tailwind CSS"],
+        description: "A full-stack personal finance tracker to record income and expenses, manage categories, and visualize spending using interactive charts.",
+        techStack: ["Spring Boot", "React", "MySQL", "JWT"],
         category: "Web Dev",
         github: "https://github.com/shreyashkashyapanand01/CashFlow",
-        demo: null, // No live demo found
-        features: [
-            "Income & Expense Tracking",
-            "Data Visualization (Charts)",
-            "JWT Authentication",
-            "Category Management"
-        ]
+        demo: null,
+        features: ["Income & Expense Tracking", "Category Management", "Data Visualization", "JWT Authentication"]
     },
     {
         id: 2,
-        title: "College Major Project 1",
-        description: "AI Research Agent that automates research and generates comprehensive reports using multi-agent architecture.",
+        title: "ResearchPilot AI",
+        description: "AI-powered Research Agent that performs deep research, analyzes data, and generates structured reports using agentic workflows.",
         techStack: ["Node.js", "Gemini API", "Tavily API", "Puppeteer"],
         category: "AI/Agentic",
         github: "https://github.com/shreyashkashyapanand01/collegeMajorProject1",
         demo: null,
         features: [
-            "Multi-agent Research",
+            "Agentic Research Pipeline",
             "Automated Report Generation",
-            "Web Scraping",
-            "LLM Integration"
+            "Web Scraping & Data Extraction",
+            "LLM-Powered Analysis"
         ]
     },
     {
         id: 3,
         title: "Earthly",
-        description: "A sustainable lifestyle platform promoting eco-friendly habits and products.",
-        techStack: ["React", "Node.js", "MongoDB"], // Assumed based on typical stack, verify if needed
+        description: "A cloud-first microservices e-commerce application built with Spring Boot, React, and MongoDB, deployed on AWS EKS using Kubernetes, Docker, Terraform, and GitHub Actions CI/CD.",
+        techStack: ["Spring Boot", "React", "MongoDB", "Docker", "Kubernetes", "Terraform", "AWS EKS", "GitHub Actions"],
         category: "Web Dev",
         github: "https://github.com/shreyashkashyapanand01/Earthly",
         demo: null,
         features: [
-            "Eco-friendly Product Marketplace",
-            "Sustainability Tips",
-            "Community Forum"
+            "Microservices Architecture",
+            "Spring Cloud Gateway & Eureka Registry",
+            "JWT Authentication",
+            "Dockerized Services",
+            "Kubernetes Deployment (Helm Charts)",
+            "AWS EKS Infrastructure",
+            "CI/CD with GitHub Actions"
         ]
     },
     {
         id: 4,
         title: "Network Security ML",
-        description: "Machine Learning pipeline for network intrusion detection and security analysis.",
-        techStack: ["Python", "Scikit-learn", "FastAPI", "Docker"],
+        description: "An end-to-end machine learning system for detecting phishing and malicious network activity, featuring automated pipelines, model training, experiment tracking, and a FastAPI-based prediction service.",
+        techStack: ["Python", "Scikit-learn", "FastAPI", "MLflow", "Docker", "MongoDB"],
         category: "Machine Learning",
         github: "https://github.com/shreyashkashyapanand01/Network_Security_ML",
         demo: null,
         features: [
-            "Intrusion Detection",
-            "Traffic Analysis",
-            "Model Deployment via FastAPI",
-            "MLflow Tracking"
+            "Automated Data Pipeline",
+            "Schema & Data Drift Validation",
+            "Advanced Data Transformation",
+            "Ensemble Model Training",
+            "MLflow Experiment Tracking",
+            "FastAPI Prediction Service",
+            "Docker Containerization",
+            "Comprehensive Logging"
         ]
     },
     {
         id: 5,
-        title: "RNN IMDB Sentiment",
-        description: "Deep Learning model for sentiment analysis on IMDB movie reviews using Recurrent Neural Networks.",
+        title: "RNN IMDB Sentiment Analysis",
+        description: "A deep learning-based sentiment analysis system trained on the IMDB dataset using an RNN architecture, deployed as an interactive Streamlit web application for real-time predictions.",
         techStack: ["TensorFlow", "Keras", "Streamlit", "Python"],
         category: "Deep Learning",
         github: "https://github.com/shreyashkashyapanand01/RNN_IMDB",
         demo: "https://imdbsentimentalanalysisrnn.streamlit.app/",
         features: [
-            "Sentiment Classification",
-            "Real-time Prediction",
-            "Streamlit UI",
-            "RNN Architecture"
+            "RNN-Based Sentiment Classification",
+            "Real-time Streamlit Web App",
+            "Text Preprocessing & Tokenization",
+            "Embeddings & Sequence Modeling",
+            "High Accuracy Model (~87%)",
+            "Interactive UI for User Input"
         ]
     },
     {
@@ -91,26 +96,28 @@ export const projects = [
 ];
 
 export const skills = {
-    "Web Development": [
-        { name: "React", level: "Advanced", icon: "FaReact" },
-        { name: "Spring Boot", level: "Intermediate", icon: "SiSpringboot" },
-        { name: "Node.js", level: "Intermediate", icon: "FaNodeJs" },
-        { name: "JavaScript", level: "Advanced", icon: "SiJavascript" },
-        { name: "HTML/CSS", level: "Advanced", icon: "FaHtml5" },
-        { name: "MongoDB", level: "Intermediate", icon: "SiMongodb" },
-        { name: "SQL", level: "Intermediate", icon: "SiMysql" },
-    ],
-    "Machine Learning": [
+    "AI & Machine Learning": [
         { name: "Supervised Learning", level: "Advanced", icon: "SiScikitlearn" },
         { name: "Unsupervised Learning", level: "Advanced", icon: "SiScikitlearn" },
-        { name: "TensorFlow", level: "Intermediate", icon: "SiTensorflow" },
-        { name: "NLP", level: "Intermediate", icon: "SiPytorch" }, // Using PyTorch icon as generic DL/NLP
+        { name: "Deep Learning", level: "Intermediate", icon: "SiTensorflow" },
+        { name: "NLP", level: "Intermediate", icon: "FaBrain" },
+        { name: "Model Deployment", level: "Intermediate", icon: "FaDocker" },
     ],
-    "Tools & Cloud": [
-        { name: "Git/GitHub", level: "Advanced", icon: "FaGithub" },
-        { name: "AWS", level: "Beginner", icon: "FaAws" },
-        { name: "Docker", level: "Beginner", icon: "FaDocker" },
-        { name: "Kubernetes", level: "Beginner", icon: "SiKubernetes" },
-        { name: "Kafka", level: "Beginner", icon: "SiApachekafka" },
-    ]
+    "Generative AI & Agentic AI": [
+        { name: "LangChain", level: "Advanced", icon: "FaLink" }, // Fallback icon
+        { name: "LangGraph", level: "Intermediate", icon: "FaProjectDiagram" },
+        { name: "LLMs", level: "Advanced", icon: "SiOpenai" },
+        { name: "RAG", level: "Intermediate", icon: "FaDatabase" },
+        { name: "AutoGen", level: "Intermediate", icon: "FaRobot" },
+        { name: "Vector DBs", level: "Intermediate", icon: "FaDatabase" },
+    ],
+    "Web & Backend Development": [
+        { name: "Java", level: "Advanced", icon: "FaJava" },
+        { name: "Spring Boot", level: "Intermediate", icon: "SiSpringboot" },
+        { name: "MySQL", level: "Intermediate", icon: "SiMysql" },
+        { name: "MongoDB", level: "Intermediate", icon: "SiMongodb" },
+        { name: "JavaScript", level: "Advanced", icon: "SiJavascript" },
+        { name: "React", level: "Intermediate", icon: "FaReact" },
+        { name: "HTML / CSS", level: "Intermediate", icon: "FaHtml5" },
+    ],
 };

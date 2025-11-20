@@ -38,13 +38,13 @@ const Hero = () => {
                         <span className="font-semibold text-secondary-600 dark:text-secondary-400">
                             <TypeAnimation
                                 sequence={[
-                                    'Full-Stack Developer',
+                                    'Java Spring Boot Backend Developer',
                                     2000,
-                                    'Spring Boot Developer',
+                                    'Machine Learning Explorer',
                                     2000,
-                                    'ML Enthusiast',
+                                    'Generative AI Enthusiast',
                                     2000,
-                                    'AI Engineer',
+                                    'Agentic AI Enthusiast',
                                     2000,
                                 ]}
                                 wrapper="span"
@@ -55,8 +55,8 @@ const Hero = () => {
                     </div>
 
                     <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
-                        Building premium web experiences and intelligent AI solutions.
-                        Specializing in React, Spring Boot, and Deep Learning.
+                        Building intelligent AI systems and scalable backend solutions.
+                        Specializing in Agentic AI, Generative AI, Machine Learning and Spring Boot.
                     </p>
 
                     <div className="flex flex-wrap gap-4">

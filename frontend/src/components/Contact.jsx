@@ -19,7 +19,9 @@ const Contact = () => {
         setStatus('loading');
 
         try {
-            const response = await fetch('http://localhost:5000/api/contact', {
+            const response = await fetch('https://shreyash-portfolio-backend.onrender.com', 
+           // const response = await fetch('http://localhost:5000/api/contact', 
+                {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -74,7 +76,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500">Email</p>
-                                        <p className="font-medium">shreyashkashyap@example.com</p>
+                                        <p className="font-medium">shreyashkashyapanand@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">

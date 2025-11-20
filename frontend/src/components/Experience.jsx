@@ -7,20 +7,11 @@ const Experience = () => {
         {
             id: 1,
             type: 'education',
-            title: 'B.Tech in Computer Science',
+            title: 'B.Tech in Computer Science and Engineering',
             org: 'KIIT University',
-            period: '2021 - 2025',
-            desc: 'Specializing in Artificial Intelligence and Machine Learning. 8th Semester student.',
+            period: '2022 - Present',
+            desc: 'Currently in 8th Semester. Specializing in Artificial Intelligence and Machine Learning.',
             icon: <GraduationCap size={20} />
-        },
-        {
-            id: 2,
-            type: 'work',
-            title: 'Full Stack Developer Intern',
-            org: 'Tech Company (Placeholder)',
-            period: 'Summer 2024',
-            desc: 'Worked on React and Node.js applications. Implemented new features and optimized performance.',
-            icon: <Briefcase size={20} />
         }
     ];
 
@@ -34,7 +25,7 @@ const Experience = () => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
-                        Experience & <span className="text-gradient">Education</span>
+                        <span className="text-gradient">Education</span>
                     </h2>
                     <div className="w-20 h-1 bg-primary-500 mx-auto rounded-full" />
                 </motion.div>

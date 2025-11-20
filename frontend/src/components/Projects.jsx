@@ -32,8 +32,8 @@ const Projects = () => {
                                 key={cat}
                                 onClick={() => setFilter(cat)}
                                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${filter === cat
-                                        ? 'bg-primary-500 text-white shadow-lg shadow-primary-500/25'
-                                        : 'bg-white dark:bg-dark-card text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+                                    ? 'bg-primary-500 text-white shadow-lg shadow-primary-500/25'
+                                    : 'bg-white dark:bg-dark-card text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
                                     }`}
                             >
                                 {cat}
@@ -105,6 +105,35 @@ const Projects = () => {
                             </motion.div>
                         ))}
                     </AnimatePresence>
+                </motion.div>
+            </div>
+
+            {/* Currently Exploring Section */}
+            <div className="max-w-4xl mx-auto px-6 mt-20">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="glass dark:glass-dark p-8 rounded-2xl border border-primary-500/20 relative overflow-hidden"
+                >
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl -mr-32 -mt-32" />
+                    <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary-500/10 rounded-full blur-3xl -ml-32 -mb-32" />
+
+                    <div className="relative z-10 text-center">
+                        <h3 className="text-2xl font-bold mb-4">
+                            Currently <span className="text-gradient">Exploring</span>
+                        </h3>
+                        <p className="text-gray-600 dark:text-gray-400 text-lg mb-6">
+                            I am actively working on advanced projects related to <span className="font-semibold text-primary-600 dark:text-primary-400">Generative AI</span> and <span className="font-semibold text-secondary-600 dark:text-secondary-400">Agentic AI</span> workflows.
+                        </p>
+                        <div className="flex flex-wrap justify-center gap-3">
+                            {['LangChain', 'AutoGPT', 'LLM Fine-tuning', 'Multi-Agent Systems'].map((item) => (
+                                <span key={item} className="px-4 py-2 rounded-full bg-white/50 dark:bg-black/20 border border-gray-200 dark:border-gray-700 text-sm font-medium">
+                                    {item}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
                 </motion.div>
             </div>
         </section>

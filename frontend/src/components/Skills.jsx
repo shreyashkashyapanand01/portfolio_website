@@ -58,9 +58,9 @@ const Skills = () => {
                                                 whileInView={{ width: skill.level === 'Advanced' ? '90%' : skill.level === 'Intermediate' ? '75%' : '50%' }}
                                                 viewport={{ once: true }}
                                                 transition={{ duration: 1, delay: 0.5 }}
-                                                className={`h-full rounded-full ${category === 'Web Development' ? 'bg-gradient-to-r from-blue-500 to-cyan-500' :
-                                                        category === 'Machine Learning' ? 'bg-gradient-to-r from-purple-500 to-pink-500' :
-                                                            'bg-gradient-to-r from-orange-500 to-yellow-500'
+                                                className={`h-full rounded-full ${category === 'Web & Backend Development' ? 'bg-gradient-to-r from-blue-500 to-cyan-500' :
+                                                    category === 'AI & Machine Learning' ? 'bg-gradient-to-r from-purple-500 to-pink-500' :
+                                                        'bg-gradient-to-r from-orange-500 to-yellow-500'
                                                     }`}
                                             />
                                         </div>

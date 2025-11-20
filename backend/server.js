@@ -15,52 +15,81 @@ const projects = [
     {
         id: 1,
         title: "CashFlow",
-        description: "A full-stack personal finance tracker to log income and expenses, categorize spending, and visualize financial data.",
-        techStack: ["Spring Boot", "React", "MySQL", "Tailwind CSS"],
+        description: "A full-stack personal finance tracker to record income and expenses, manage categories, and visualize spending using interactive charts.",
+        techStack: ["Spring Boot", "React", "MySQL", "JWT"],
         category: "Web Dev",
         github: "https://github.com/shreyashkashyapanand01/CashFlow",
         demo: null,
-        features: ["Income & Expense Tracking", "Data Visualization", "JWT Authentication"]
+        features: ["Income & Expense Tracking", "Category Management", "Data Visualization", "JWT Authentication"]
     },
     {
         id: 2,
-        title: "College Major Project 1",
-        description: "AI Research Agent that automates research and generates comprehensive reports using multi-agent architecture.",
+        title: "ResearchPilot AI",
+        description: "AI-powered Research Agent that performs deep research, analyzes data, and generates structured reports using agentic workflows.",
         techStack: ["Node.js", "Gemini API", "Tavily API", "Puppeteer"],
         category: "AI/Agentic",
         github: "https://github.com/shreyashkashyapanand01/collegeMajorProject1",
         demo: null,
-        features: ["Multi-agent Research", "Automated Report Generation", "Web Scraping"]
+        features: [
+            "Agentic Research Pipeline",
+            "Automated Report Generation",
+            "Web Scraping & Data Extraction",
+            "LLM-Powered Analysis"
+        ]
     },
     {
         id: 3,
         title: "Earthly",
-        description: "A sustainable lifestyle platform promoting eco-friendly habits and products.",
-        techStack: ["React", "Node.js", "MongoDB"],
+        description: "A cloud-first microservices e-commerce application built with Spring Boot, React, and MongoDB, deployed on AWS EKS using Kubernetes, Docker, Terraform, and GitHub Actions CI/CD.",
+        techStack: ["Spring Boot", "React", "MongoDB", "Docker", "Kubernetes", "Terraform", "AWS EKS", "GitHub Actions"],
         category: "Web Dev",
         github: "https://github.com/shreyashkashyapanand01/Earthly",
         demo: null,
-        features: ["Eco-friendly Marketplace", "Sustainability Tips"]
+        features: [
+            "Microservices Architecture",
+            "Spring Cloud Gateway & Eureka Registry",
+            "JWT Authentication",
+            "Dockerized Services",
+            "Kubernetes Deployment (Helm Charts)",
+            "AWS EKS Infrastructure",
+            "CI/CD with GitHub Actions"
+        ]
     },
     {
         id: 4,
         title: "Network Security ML",
-        description: "Machine Learning pipeline for network intrusion detection and security analysis.",
-        techStack: ["Python", "Scikit-learn", "FastAPI", "Docker"],
+        description: "An end-to-end machine learning system for detecting phishing and malicious network activity, featuring automated pipelines, model training, experiment tracking, and a FastAPI-based prediction service.",
+        techStack: ["Python", "Scikit-learn", "FastAPI", "MLflow", "Docker", "MongoDB"],
         category: "Machine Learning",
         github: "https://github.com/shreyashkashyapanand01/Network_Security_ML",
         demo: null,
-        features: ["Intrusion Detection", "Traffic Analysis", "MLflow Tracking"]
+        features: [
+            "Automated Data Pipeline",
+            "Schema & Data Drift Validation",
+            "Advanced Data Transformation",
+            "Ensemble Model Training",
+            "MLflow Experiment Tracking",
+            "FastAPI Prediction Service",
+            "Docker Containerization",
+            "Comprehensive Logging"
+        ]
     },
     {
         id: 5,
-        title: "RNN IMDB Sentiment",
-        description: "Deep Learning model for sentiment analysis on IMDB movie reviews using Recurrent Neural Networks.",
+        title: "RNN IMDB Sentiment Analysis",
+        description: "A deep learning-based sentiment analysis system trained on the IMDB dataset using an RNN architecture, deployed as an interactive Streamlit web application for real-time predictions.",
         techStack: ["TensorFlow", "Keras", "Streamlit", "Python"],
         category: "Deep Learning",
         github: "https://github.com/shreyashkashyapanand01/RNN_IMDB",
         demo: "https://imdbsentimentalanalysisrnn.streamlit.app/",
-        features: ["Sentiment Classification", "Real-time Prediction", "Streamlit UI"]
+        features: [
+            "RNN-Based Sentiment Classification",
+            "Real-time Streamlit Web App",
+            "Text Preprocessing & Tokenization",
+            "Embeddings & Sequence Modeling",
+            "High Accuracy Model (~87%)",
+            "Interactive UI for User Input"
+        ]
     },
     {
         id: 6,
@@ -70,7 +99,12 @@ const projects = [
         category: "Deep Learning",
         github: "https://github.com/shreyashkashyapanand01/LSTM_nextWordPredictor",
         demo: null,
-        features: ["Next Word Prediction", "Text Generation", "LSTM Architecture"]
+        features: [
+            "Next Word Prediction",
+            "Text Generation",
+            "LSTM Architecture",
+            "Interactive UI"
+        ]
     }
 ];
 

@@ -5,30 +5,30 @@ import { Calendar, Code, Brain, Rocket } from 'lucide-react';
 const About = () => {
     const timeline = [
         {
-            year: '2022',
+            year: '2023',
             title: 'Web Development',
-            desc: 'Started with HTML, CSS, JS, and React. Built several full-stack apps.',
+            desc: 'Started with HTML, CSS, JavaScript, and basic frontend development. Built small projects and explored how software comes to life in the browser.',
             icon: <Code size={20} />,
             color: 'bg-blue-500'
         },
         {
-            year: '2023',
-            title: 'Machine Learning',
-            desc: 'Dove into Python, Scikit-learn, and supervised/unsupervised algorithms.',
-            icon: <Brain size={20} />,
+            year: '2024',
+            title: 'Java Spring Boot Backend Development',
+            desc: 'Learned to build scalable REST APIs, microservices, authentication systems, and database-driven applications using Java, Spring Boot, Hibernate/JPA, and MySQL.',
+            icon: <Rocket size={20} />,
             color: 'bg-purple-500'
         },
         {
-            year: '2024',
-            title: 'Deep Learning & NLP',
-            desc: 'Mastered TensorFlow, RNNs, LSTMs, and built complex predictive models.',
+            year: '2025',
+            title: 'Machine Learning & Deep Learning',
+            desc: 'Explored Python, Scikit-learn, supervised/unsupervised algorithms, and end-to-end ML pipelines. Mastered TensorFlow, CNNs, RNNs, LSTMs, and NLP fundamentals. Built predictive models and worked on text-processing, embeddings, and sequence modeling. This is where my interest in intelligent systems began.',
             icon: <Brain size={20} />,
             color: 'bg-pink-500'
         },
         {
             year: 'Present',
-            title: 'GenAI & LLMs',
-            desc: 'Exploring Large Language Models and Agentic AI workflows.',
+            title: 'GenAI & Agentic AI Engineering',
+            desc: 'Specializing in LLMs, RAG systems, LangChain, LangGraph, HuggingFace, and AutoGen. Building multi-agent workflows, autonomous AI systems, and LLM-powered backend integrations.',
             icon: <Rocket size={20} />,
             color: 'bg-orange-500'
         }
@@ -49,10 +49,7 @@ const About = () => {
                     </h2>
                     <div className="w-20 h-1 bg-primary-500 mx-auto rounded-full" />
                     <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                        I'm a final year B.Tech CSE student with a passion for bridging the gap between
-                        robust software engineering and cutting-edge Artificial Intelligence.
-                        My journey has taken me from building responsive web applications to designing
-                        complex neural networks.
+                        I specialize in building intelligent AI agents and scalable backend applications. With experience in Agentic AI, Generative AI, Machine Learning, and Java Spring Boot, I focus on creating smart, reliable, and high-impact solutions that blend AI innovation with strong engineering principles.
                     </p>
                 </motion.div>
 
