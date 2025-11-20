@@ -13,7 +13,7 @@ const About = () => {
         },
         {
             year: '2024',
-            title: 'Java Spring Boot Backend Development',
+            title: 'Spring Boot Backend Development',
             desc: 'Learned to build scalable REST APIs, microservices, authentication systems, and database-driven applications using Java, Spring Boot, Hibernate/JPA, and MySQL.',
             icon: <Rocket size={20} />,
             color: 'bg-purple-500'
@@ -49,7 +49,7 @@ const About = () => {
                     </h2>
                     <div className="w-20 h-1 bg-primary-500 mx-auto rounded-full" />
                     <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                        I specialize in building intelligent AI agents and scalable backend applications. With experience in Agentic AI, Generative AI, Machine Learning, and Java Spring Boot, I focus on creating smart, reliable, and high-impact solutions that blend AI innovation with strong engineering principles.
+                        I specialize in building intelligent AI agents and scalable backend applications. With experience in Agentic AI, Generative AI, Machine Learning, and Spring Boot, I focus on creating smart, reliable, and high-impact solutions that blend AI innovation with strong engineering principles.
                     </p>
                 </motion.div>
 
